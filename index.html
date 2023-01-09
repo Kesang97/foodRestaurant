@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>practice bootstrap</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/6190fed17b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- header section -->
+    <div id="header" class="shadow-sm">
+      <div class="container">
+        <nav class="navbar navbar-expand-md">
+          <a href="#" class="navbar-brand text-dark">
+            <img src="Images/logo.png" class="img-fluid" width="70px" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbarMenu"
+          >
+            <span><i class="fas fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li class="nav-items">
+                <a href="About.html" class="nav-link">About</a>
+              </li>
+              <li class="nav-items">
+                <a href="cuisine.html" class="nav-link">Cuisine</a>
+              </li>
+              <li class="nav-items">
+                <a href="Menu.html" class="nav-link">Menu</a>
+              </li>
+            </ul>
+            <button class="btn btn-outline-danger ml-4 btn-sm Order-btn">
+              Order Now
+            </button>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- banner section -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="banner-title">
+            <h2 class="text-warning">Welcome To My Food Channel..</h2>
+          </div>
+          <div class="title">
+            <p class="font-weight-bold">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              deserunt earum sit provident qui sequi harum quos accusamus dolore
+              unde assumenda saepe, omnis tempora quis voluptatem modi placeat
+              doloribus pariatur?
+            </p>
+          </div>
+          <div class="font-italic headline-text text-uppercase h4">
+            For ORDER Call us on <span class="text-danger">+91 3246563327</span>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-end">
+            <img
+              src="Images/foodBanner.png"
+              alt="banner.jpg"
+              width="360px"
+              class="img-fluid d-md-block d-none banner-Img"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="bg-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="aboutImg1 py-4">
+              <img
+                src="Images/aboutImg.jpg"
+                class="img-fluid"
+                width="470px"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="d-flex justify-content-center">
+              <div class="about-title">
+                <div class="display-4 text-secondary">
+                  <p>Our Resturant</p>
+                </div>
+                <div class="about-desc">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Necessitatibus, eius expedita fuga obcaecati mollitia quasi
+                    nobis sapiente id, perspiciatis dolor optio totam recusandae
+                    explicabo harum laboriosam neque repellendus deserunt
+                    perferendis doloremque. Soluta architecto sint sequi
+                    necessitatibus. Ut blanditiis hic illum!
+                  </p>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Sit, placeat aperiam, odit quis, pariatur quaerat cum
+                    tenetur repellendus velit deleniti repudiandae quasi ab
+                    maiores voluptatum necessitatibus amet veniam possimus
+                    delectus!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="aboutImg2 py-2">
+              <img
+                src="Images/img1.jpg"
+                class="img-fluid"
+                width="470px"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-md-5 my-2">
+            <div class="row">
+              <div class="col-12">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="form-group">
+                      <label class="text-warning font-weight-regular"
+                        >Your Email</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        placeholder="kesangs99@gmail.com"
+                        required
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label class="text-warning font-weight-regular"
+                        >Your Message</label
+                      >
+                      <textarea
+                        name="Message"
+                        placeholder="Hii its Subarna here!!"
+                        cols="52"
+                        rows="6"
+                      ></textarea>
+                    </div>
+                    <button class="btn btn-secondary btn-block">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
