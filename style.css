@@ -41,6 +41,12 @@
    .aboutbtnItem{
     text-align: center;
    }
+   .btnCuisneItem{
+    text-align: center;
+   }
+   .cuisineImgItem{
+    text-align: center;
+   }
    .sec4{
     text-align: center;
    }
@@ -55,7 +61,11 @@
     }
 
 }
-
+@media (max-width: 576px){
+    .card-content{
+        text-align: center;
+    }
+}
 
 .top-banner{
     background-image:url("images/bg-1.jpg");
@@ -89,9 +99,7 @@
         background-repeat: no-repeat 0 0;
         background-size: cover;
         opacity: 0.9;
-        background-position: right;
-
-
+    
     }
     .section2{
         width:100%;
@@ -157,4 +165,12 @@
 #social-icons li a{
     color: #fff;
     font-size: 23px;
+}
+.no-gutter > [class*='col-']{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.scrolling-wrapper{
+    overflow-x: auto;
 }
