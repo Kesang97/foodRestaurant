@@ -1,3 +1,8 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
 #header{
     background: #F6F6F6;
     position: sticky;
@@ -12,7 +17,6 @@
 .navbar-nav li a{
     display: block;
     color: #DC0000;
-    font-weight: 500;
     font-size: 16px;
     padding: 10px 10px;
 }
