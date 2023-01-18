@@ -253,3 +253,42 @@ p{
     content: '';
     flex: 1;
 }
+
+/* icons */
+.icons{
+    list-style-type: none;
+    margin-top: 32px;
+    padding-left: 4px;
+ 
+
+
+
+}
+.icons li{
+    padding-left: 2px;
+    font-size:16px;
+    display: inline-block;
+  
+}
+.icons li a{
+    color: #151515;
+    border: 2px solid rgb(215, 212, 212);
+    border-radius: 50%;
+    height: 33px;
+    width: 35px;
+   text-align: center;
+   padding-top: 6px;
+
+    
+}
+/* text */
+.text{
+  font-style:var(--style3);
+  font-size: small;
+
+
+}
+.text a{
+   
+    color:rgb(181, 93, 66);
+}
