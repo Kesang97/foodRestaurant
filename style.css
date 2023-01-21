@@ -213,11 +213,10 @@ p{
     color: rgb(17, 9, 9);
     font-size: 23px;
 }
-.no-gutter > [class*='col-']{
+ .no-gutter > [class*='col-']{
     padding-left: 0;
     padding-right: 0;
-}
-
+} 
 .scrolling-wrapper{
     overflow-x: auto;
 }
