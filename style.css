@@ -109,7 +109,11 @@ p {
 /* about us section */
 .section {
   width: 100%;
-  min-height: 80vh;
+  min-height: 100vh;
+  background-image:url("Images/pic10.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
 }
 .msgSection {
   background-image: url("images/pic3.jpg");
