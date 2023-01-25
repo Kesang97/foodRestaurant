@@ -108,11 +108,11 @@ p {
 }
 /* about us section */
 .section {
-  width: 100%;
-  min-height: 100vh;
+  min-width: 100vw;
+  min-height:100vh;
   background-image:url("Images/pic10.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   opacity: 0.9;
 }
 .msgSection {
@@ -284,3 +284,4 @@ top banner */
   font-size: 12px;
   font-family: var(--style1);
 }
+
